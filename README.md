@@ -65,7 +65,6 @@ It is for an app that **brief description**.
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
 I learned how to apply XML to different parts of this app template, such as the imageview, edittext, button, etc.
 
 ## License

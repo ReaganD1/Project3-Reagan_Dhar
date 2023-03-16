@@ -8,7 +8,7 @@ Time spent: **10** hours spent in total
 
 ## Summary
 
-**AnimalApps** is an android app that was riddle with some pretty nasty Kotlin bugs.  With those gone, it's a collection of widgets for a variety of purposes!  **Change or add to this description**
+**AnimalApps** is an android app that was riddle with some pretty nasty Kotlin bugs.  With those gone, it's a collection of widgets for a variety of purposes!  **The goal is to make a copy of a page from an app and turn it into an animal theme.**
 
 If I had to describe this project in three (3) emojis, they would be: **👍🏻👌🏻🙂**
 
@@ -40,15 +40,15 @@ The following EXTRA features are implemented:
 
 I have chosen to duplicate the following layout from the **Twitch** app:
 
-<img src='https://user-images.githubusercontent.com/116980504/225759032-93a81a9f-8933-49c1-be04-b8a361e556f7.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+<img src='https://user-images.githubusercontent.com/116980504/225759032-93a81a9f-8933-49c1-be04-b8a361e556f7.png' title='Twitch' width='' alt='Twitch' />
 
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://i.imgur.com/Vxeclvx.gif' title='Project#3 Demo' width='' alt='Project#3 Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with **Kap**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -66,10 +66,11 @@ It is for an app that **brief description**.
 ## Notes
 
 Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+I learned how to apply XML to different parts of this app template, such as the imageview, edittext, button, etc.
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2023** **Reagan Dhar**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

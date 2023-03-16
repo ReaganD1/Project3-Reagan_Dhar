@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/twitch_purple"
+        android:fontFamily="@font/bungee_shade"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#FDFDFD"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Catmail"
+        android:textColor="@color/twitch_purple"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".16" />
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="363dp"
+        android:layout_height="49dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#DFDDDD"
+        android:backgroundTint="#C5C1C1"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#FDFDFD"
+        android:fontFamily="@font/abril_fatface"
+        android:text="CatName"
+        android:textColor="@color/twitch_purple"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/useremail"
+        app:layout_constraintVertical_bias=".3"/>
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="363dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="28dp"
+        android:background="#DFDDDD"
+        android:backgroundTint="#C5C1C1"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:background="#FDFDFD"
+        android:text="Password"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/twitch_purple"
+        android:fontFamily="@font/abril_fatface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userId"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".44"/>
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="363dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:background="#DFDDDD"
+        android:backgroundTint="#C5C1C1"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+    <TextView
+        android:id="@+id/Birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:background="#FDFDFD"
+        android:text="Date of Birth"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/twitch_purple"
+        android:fontFamily="@font/abril_fatface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userPassword"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".58"/>
+    <EditText
+        android:id="@+id/userBirth"
+        android:layout_width="363dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:background="#DFDDDD"
+        android:backgroundTint="#C5C1C1"
+        android:ems="10"
+        android:hint="DOB"
+        android:inputType="textNoSuggestions"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Birth" />
+
+    <TextView
+        android:id="@+id/policy"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:text="By clicking get in, you are now a member of TwitchyFeline and can stream or watch other cats go about their daily live"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userBirth"
+        app:layout_constraintVertical_bias=".00" />
+
+    <Button
+        android:id="@+id/loginBotton"
+        android:layout_width="373dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#6441A5"
+        android:backgroundTint="#6441A5"
+        android:text="Get In"
+        android:textSize="24sp"
+        app:iconTint="#6441A5"
+        android:fontFamily="@font/passion_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/policy"
+        app:strokeColor="#DAD5E3" />
+
+    <ImageView
+        android:id="@+id/spotifyLogo"
+        android:layout_width="206dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twitch_bongo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

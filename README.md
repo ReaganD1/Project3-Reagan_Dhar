@@ -46,7 +46,7 @@ I have chosen to duplicate the following layout from the **Twitch** app:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://i.imgur.com/Vxeclvx.gif' title='Project#3 Demo' width='' alt='Project#3 Demo' />
+<img src='https://i.imgur.com/4wuOLi8.gif' title='Project#3 Demo' width='' alt='Project#3 Demo' />
 
 GIF created with **Kap**
 
